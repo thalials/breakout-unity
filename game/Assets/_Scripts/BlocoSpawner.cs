@@ -21,7 +21,7 @@ public class BlocoSpawner : MonoBehaviour {
         }
         for(int i = 0; i < 5; i++) {
             for(int j = 0; j < 4; j++) {
-                Vector3 posicao = new Vector3(-9 + 3.4f * i, 6 - 1.55f * j);
+                Vector3 posicao = new Vector3(-5f + 2.5f * i, 4 - 1.25f * j);
                 Instantiate(Bloco, posicao, Quaternion.identity, transform);
             }
         }
